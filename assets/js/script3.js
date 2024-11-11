@@ -36,3 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarContenido('ventas.html', 'contenedor-propiedades');
     cargarContenido('alquiler.html', 'contenedor-propiedades');
 });
+
+// NO LOGRE HACER ESTA PARTE PROFE, NO TUVE TIEMPO SUFICIENTE PARA ENTENDERLO Y ME AYUDE CON IA PARA IR SOLUCIONANDO
+//PERO NO FUE POSIBLE :(
