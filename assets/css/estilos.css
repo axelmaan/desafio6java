@@ -1,0 +1,147 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img {
+    height: 250px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.propiedad {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.propiedad img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px;
+
+}
+
+.cartas {
+    padding-top: 50px;
+}
+
+.formulario {
+    padding-top: 50px;
+}
+
+.titulo {
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+/* styles.css */
+
+#propiedad {
+    display: flex;
+    flex-wrap:wrap;  
+    gap: 20px;      
+    justify-content: flex-start;
+}
+
+.propiedad {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(33.333% - 40px); /* Tres columnas con espacios entre ellas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho */
+}
+
+.propiedad img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.propiedad h3 {
+    margin: 10px 0;
+}
+
+.propiedad p {
+    margin: 5px 0;
+}
+
+.propiedad i {
+    margin-right: 5px;
+    color: #555;
+}
+.icono-true { 
+    color: green; 
+} 
+.icono-false { 
+    color: red; 
+}
+
+#alquiler {
+    display: flex;
+    flex-wrap:wrap;  
+    gap: 20px;      
+    justify-content: flex-start;
+}
+
+.alquiler {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(33.333% - 40px); /* Tres columnas con espacios entre ellas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho */
+}
+
+.alquiler img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.alquiler h3 {
+    margin: 10px 0;
+}
+
+.alquiler p {
+    margin: 5px 0;
+}
+
+.alquiler i {
+    margin-right: 5px;
+    color: #555;
+}
+.icono-true { 
+    color: green; 
+} 
+.icono-false { 
+    color: red; 
+}
